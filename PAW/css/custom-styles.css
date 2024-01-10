@@ -1,0 +1,136 @@
+/* nav */
+
+#mainNav{
+background-color: black!important;
+}
+#mainNav a{
+    color:white!important;
+}
+#mainNav .navbar-toggler{
+    color:white!important;
+}
+
+/* Homepage */
+.hp-banner{
+    width: 100%;
+    min-height: 65vh;
+    margin-top:53px;
+}
+.hp-banner div.single-slide{
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-banner div.single-slide {
+text-align: center;
+color:white;
+width:100%;
+font-size: 2em;
+text-transform: uppercase;
+padding: 1em;
+position: relative;
+}
+.hp-banner div.single-slide * {
+    z-index: 20;
+}
+.hp-banner div.single-slide::after{
+content: "";
+display:block;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, .75);
+position: absolute;
+}
+
+.hp-single-post{
+    min-height: 350px;
+    margin: 1em;
+    display:flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0px 7px 16px 1px rgba(66, 68, 90, 1);
+    border-radius: 15px;
+}
+.hover-scale-anim{
+transition: .5s;
+}
+.hover-scale-anim:hover{
+transform: scale(.95);
+}
+.hp-single-post .post-text{
+background-color: rgba(0, 0, 0, .6);
+width:100%;
+color:white;
+text-align: center;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.hp-single-post a h2{
+color:white;
+font-size: 1.1em;
+padding: 1em;
+}
+.hp-single-post .post-meta{
+font-size: .6em;
+margin:0 0 .3em 0 ;
+}
+.hp-single-post .post-meta a{
+color: #cab37c;
+text-decoration: none;
+}
+
+/* category */
+.cat-post{
+    margin:.5em;
+}
+.cat-post .img-wrapper{
+    max-height: 300px;
+    overflow: hidden;
+}
+.cat-post img{
+    width:100%;
+}
+.cat-post .post-title{
+   font-size: 1.5rem;
+}
+.cat-post .post-subtitle{
+    font-size: .9rem;
+    font-weight: 400;
+}
+.cat-post .post-meta{
+   font-size: .7rem;
+}
+
+/* single post */
+
+
+/* Serp simulator */
+#serp-result{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 3px rgba(66,68,90,0.1);
+    font-family: 'Arial';
+}
+.title-result{
+    font-size: 20px;
+    color: #1a0dab;
+    margin: 5px 0;
+    max-width: 100% !important;
+}
+
+.desc-result{
+    font-size:14px;
+}
+
+.serp-chars{
+    font-size: 14px;
+    text-align: right;
+}
